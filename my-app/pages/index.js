@@ -9,7 +9,7 @@ export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
   const [joinedWhitelist, setJoinedWhitelist] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [numberOfWhitelisted, setNumberOfWhitelisted] = useState(false);
+  const [numberOfWhitelisted, setNumberOfWhitelisted] = useState(0);
   const web3ModalRef = useRef();
 
 
